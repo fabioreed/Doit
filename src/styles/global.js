@@ -6,6 +6,7 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     outline: 0;
+    font-family: 'Roboto Mono';
   }
 
   :root {
@@ -22,7 +23,6 @@ export default createGlobalStyle`
   }
 
   body, input, button {
-    font-family: 'PT Serif', serif;
     font-size: 1rem;
   }
 
