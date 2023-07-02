@@ -12,9 +12,9 @@ function Routes() {
     const token = JSON.parse(localStorage.getItem("@Doit:token"));
 
     if (token) {
-      return setAuthenticated(true);
+      return setAuthenticated(true)
     }
-  }, [authenticated]);
+  }, [authenticated])
 
   return (
     <Switch>
